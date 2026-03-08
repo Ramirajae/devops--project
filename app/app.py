@@ -7,7 +7,7 @@ def home():
     return jsonify({
         'status': 'ok',
         'message': 'Mon API DevOps fonctionne !',
-        'version': '1.0.1'
+        'version': '1.0.0'
     })
 
 @app.route('/health')
